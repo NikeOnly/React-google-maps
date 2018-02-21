@@ -1,0 +1,12 @@
+.app-container {
+    display: flex;
+
+    ul {
+        width: 300px;
+    }
+
+    .app-list-item {
+        margin: 20px;
+        cursor: pointer;
+    }
+}

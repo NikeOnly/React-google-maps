@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppListItem match snapshot 1`] = `
+<li
+  aria-hidden={true}
+  className="app-list-item"
+  draggable="true"
+  onClick={[Function]}
+  onDragStart={[Function]}
+  role="button"
+>
+  <div>
+    Kyiv
+  </div>
+  <div>
+    Coordinates: 
+    50.446853
+    , 
+    30.520505
+  </div>
+</li>
+`;
