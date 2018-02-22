@@ -2,6 +2,7 @@
 
 #### To launch project you need
 Build UI part of the project
+
 Start mock-server-api
 
 Enter 'localhost:8080' in your browser
