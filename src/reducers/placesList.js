@@ -5,7 +5,11 @@ export default function (state = [], action) {
 
     switch (type) {
         case ActionTypes.LOAD_PLACES_LIST:
-            return payload;
+            if (payload.status != 200 || payload.data.errorMessage) {
+                return [];
+            } else {
+                return payload.data;
+            }
         default:
             return state;
     }
