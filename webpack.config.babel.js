@@ -50,6 +50,14 @@ const baseConfig = {
             }
         ]
     },
+    devServer: {
+        proxy: {
+            '/rest': {
+              target: 'http://localhost:3000',
+              secure: false
+            }
+        }
+    },
     plugins: [
         new webpack.optimize.UglifyJsPlugin({
             compress: {

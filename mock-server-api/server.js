@@ -2,7 +2,7 @@ var path = require('path');
 var express = require('express');
 var api = require('./rest-api');
 var bodyParser = require('body-parser');
-var port = 8080;
+var port = 3000;
 
 var app = express();
 

@@ -1,8 +1,10 @@
 /node_modules
 /mock-server-api/node_modules
+/mock-server-api/package-lock.json
 bundle.js
 npm-debug.log
 .DS_Store
+package-lock.json
 
 # IntelliJ
 *.iml

@@ -11,10 +11,10 @@ Enter 'localhost:8080' in your browser
 
 ```
 > npm install
-> npm run build
+> npm start
 ```
 
-#### To start mock-server-api you need to execute in terminal (or command prompt):
+#### To start mock-server-api you need to execute in another terminal (or command prompt):
 
 ```
 > cd mock-server-api (or open comand promt on mock-server-api folder)
